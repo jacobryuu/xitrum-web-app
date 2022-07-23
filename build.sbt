@@ -28,6 +28,10 @@ libraryDependencies += "tv.cntt" %% "xitrum-scalate" % "2.9.2"
 libraryDependencies += "io.netty" % "netty-all" % "4.1.78.Final"
 
 
+//scalatest
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.12" % "test"
+libraryDependencies += "org.scalatra" %% "scalatra-scalatest" % "2.8.2" % "test"
+
 // Precompile Scalate templates
 
 import org.fusesource.scalate.ScalatePlugin._
